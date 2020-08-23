@@ -5,42 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
     <title>Victor Stoholms Tribute page</title> 
 </head>
 <body>
-  <header class="main-header top-wrapper" >
-      <div class="empty-grey-nav-bar">
-          <nav>
-          </nav>
-      </div>
-    
-      <h1>Tribute page for Victor Stokholm</h1>
-      <h2>How he made his way</h2>
-   <img id="top-photo" src="images/Top-photo.jpeg" alt="Photo of Victor Stokholm">
-    </header>
-      
-  <main>
-        <div>
-            <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+    <div id="main">
+        <header class="main-header top-wrapper" >
+            <div class="empty-grey-nav-bar">
+                <nav>
+                    <div class="navbar">
+                        <h1 id="title">Tribute page for Victor Stokholm</h1>
+                        <h2>"How he made his way"</h2>
+                    </div>
+                </nav>
+            </div>
+            
+            <div id="img-div">
+                <img id="image" src="images/Top-photo.jpeg" alt="Photo of Victor Stokholm"> 
+                    <div id="img-caption">Photo of Victor Stokholm</div>
+            </div>
+        </header>
 
-        <div class="mid-photo">
-            <img src="images/meal-pal.png" alt="Meal Plan Worksheet">
+        <div class="main-content-container" id="tribute-info">
+            <div class="main-text-container">
+                <div class="upper-text">               
+                    <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+                    <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+                    <p>Ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+                </div> 
+                
+                <div class="mid-grey-container">
+                    <div class="mid-photo mid-container" id="2-img-div">
+                        <img src="images/meal-pal.png" alt="Meal Plan Worksheet">
+                    </div>
+            </div>
+                        
+                <div class="under-text">
+                    <p>dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+                    <p>dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
         </div>
             
-        <div class="text-under-mid-photo">
-            <p>dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </main>
-        
-    <footer>
-        <div class="footer-container">
-            <h3>Feeling like investing?</h3>
-            <button>Click here to learn more</button>
-        </div>
-    </footer>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-container-items">
+                    <h3>Fell like investing?</h3>
+                    <a class="learn-more" id="tribute-link" href="#" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>

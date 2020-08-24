@@ -41,8 +41,10 @@ body {
 
 .top-wrapper img {
     position: relative;
+    display: block;
     top: 25px;
-    margin-bottom: 50px;
+    margin: auto;
+    padding-bottom: 60px;
     height: auto;
     width: 100%;
     max-width: 650px;
@@ -59,53 +61,98 @@ body {
     width: 650px;
 }
 
+.under-text h5 {
+    font-size: 2.5em;
+}
+
 .main-text-container p {
     font-family: Montserrat, sans-serif;
     background-color:#fff;
-    width: 50%;
     position: relative;
-    
     margin: auto;
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 1.7em;
     line-height: 3em;
 }
 
-.mid-container {
-  background: #a4ccd8;
-  color: #fff;
-  width: 100%;
+.main-text-container h4 {
+    font-size: 2em;
+    font-family: Montserrat, sans-serif;
+}
+
+.mid-grey-container {
+    background: #a4ccd8;
+    width: 100%;
+    transform: skewY(-2deg);
+    border-top-left-radius: 40px;
+}
+
+.mid-grey-container::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #a4ccd8;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.mid-grey-container::after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    z-index: -1;
+    border-radius: 50%;
 }
 
 .mid-photo {
+    display: block;
+    transform: skewY(2deg);
     position: relative;
     padding: 20px;
 }
 
+.mid-photo::before {
+    
+}
+
 /* footer */
 
-.footer-container {
+.bottom-container {
     width: 100%;
+    background: beige;
+    height: auto;
     margin: 12em 2em;
 }
 
-.footer-container a {
+.bottom-container {
+    margin: 0;
+    padding-top: 250px;
+    height: auto;
+    width: 100%;
+    background: beige;
+}
+
+.bottom-container a {
     background: #00cc80;
     color: #fff;
     font-size: 1.4em;
     padding: 0.5em;
     position: relative;
-    top: 10px;
 }
 
 .footer-container-items {
     position: relative;
     justify-content: center;
-    top: -50px;
+    top: -175px;
 }
 
 .footer-container h3 {
     font-size: 2.1em;
     position: relative;
-    top: -20px;
 }
